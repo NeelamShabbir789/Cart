@@ -1,6 +1,6 @@
 <html>  
    <head>  
-      <title>Untitled Document</title>  
+      <title>record View Page</title>  
    </head>  
    <table border="1">  
       <tbody>  

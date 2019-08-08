@@ -98,7 +98,7 @@ $this->load->model('product_model');
 
  public function get()  
       {  
-         //load the database  
+         
            
          //load the model  
          $this->load->model('data_view_model');  
