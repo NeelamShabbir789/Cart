@@ -84,7 +84,6 @@ $this->load->model('product_model');
 		$data['desp']=$this->input->post('desp');
 		  $this->product_model->Add_Product($data);
 		
-
 		echo'Record added';
 		 //process the input
 	}
@@ -95,5 +94,21 @@ $this->load->model('product_model');
 	}
 		
 	}
-}
+
+
+ public function get()  
+      {  
+         //load the database  
+           
+         //load the model  
+         $this->load->model('data_view_model');  
+         //load the method of model 
+         $data=array(); 
+         $data['h']=$this->data_view_model->select($data);  
+
+         //return the data in view  
+         $this->load->view('view_data', $data);  
+      }  
+} 
+
 ?>

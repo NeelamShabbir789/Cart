@@ -1,6 +1,6 @@
 <form method="post" action="<?php echo site_url('welcome/add_product');?>">
 	Product Name:
-	<input type="test" name="name" >
+	<input type="text" name="name" >
 	Product Price:
 	<input type="text" name="price" >
 	Product Desp:
